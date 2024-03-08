@@ -10,8 +10,8 @@ function displayData(data) {
     const htmlContent = data.map(item => `
     <div class="data">
         <img src="${item.img}" alt="">
-        <h2>${item.heading}</h2>
-        <p>${item.paragraph}</p>
+        <h2 class="item">${item.heading}</h2>
+        <p class="item">${item.headline}</p>
     </div>
 `).join('');
 

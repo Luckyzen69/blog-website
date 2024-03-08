@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+body{
+    background-color: rgb(233, 228, 228);
+}
+
+    /* top logo and login  */
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.top ul{
+    display: flex;
+}
+.top ul li{
+    list-style: none;
+    margin: 3px;
+    padding: 4px;
+    font-size: 18px ;
+    font-family: serif;
+}
+
+.top ul li a, a{
+    
+    text-decoration: none;
+    color: rgb(25, 221, 57);
+}
+.account{
+    border: 1px solid;
+    align-items: center;
+    display: flex;
+}
+.account:hover{
+    background-color:brown ;
+    color: white;
+}
+.top ul li a:hover{
+    color: white;
+}
+.sign{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    padding: 5px;
+    margin: 5px;
+    font-size: 32px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+   /* for top navigation */
+.nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.nav ul li{
+    list-style: none;
+    margin: 5px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(88, 83, 85);
+    font-size: 18px;
+}
+.nav ul li a:hover{
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px;   
+    background-color: rgb(199, 60, 60);
+    color: rgb(255, 251, 251);
+}
+/*  banner */
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 140px;
+}
+.web{
+    position: absolute;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    bottom: 140px;
+    left: 30px;
+   }
+.featured{
+    position: absolute;
+    bottom: 210px;
+    color: white;
+    font-size:18px;
+    font-family: sans-serif;
+    left:30px;
+}
+.disc{
+    position: absolute;
+    color: white;
+    bottom: 60px;
+    left:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.banner img{
+    height: 600px;
+    width: 1000px;
+    border-radius: 10px;
+    
+}
+/*  recent blog */
+.recent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 5px;
+}
+.recent img{
+    height: 300px;
+    border-radius: 10px;
+    aspect-ratio: 3/2;
+    margin: 5px;
+}
+.data{
+    border: 1px solid  black ;
+    margin: 2px;
+}

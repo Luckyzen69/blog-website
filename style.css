@@ -143,3 +143,11 @@ figcaption{
     font-family:monospace;
     font-size: 18px;
 }
+.sign{
+    border: 1px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding: 30px;
+}

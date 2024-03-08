@@ -108,8 +108,7 @@ body{
 
 }
 .banner img{
-    height: 600px;
-    width: 1000px;
+
     border-radius: 10px;
     
 }
@@ -134,4 +133,9 @@ body{
 }
 .item{
     margin-left: 4px;
+}
+/* gallery */
+.gallery{
+    text-align: center;
+   
 }

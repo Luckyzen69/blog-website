@@ -32,6 +32,7 @@ body{
     border: 1px solid;
     align-items: center;
     display: flex;
+   
 }
 .account:hover{
     background-color:brown ;
@@ -43,6 +44,8 @@ body{
 .log{
     display: flex;
     align-items: center;
+    color: black;
+    text-decoration: underline;
 }
 
 .logo{
@@ -73,6 +76,7 @@ body{
     padding: 5px;   
     background-color: rgb(199, 60, 60);
     color: rgb(255, 251, 251);
+    text-decoration: underline;
 }
 /*  banner */
 .banner{
@@ -139,6 +143,7 @@ body{
 /* gallery */
 .gallery{
     text-align: center;
+    display: flex   ;
    
 }
 figcaption{
@@ -165,6 +170,12 @@ figcaption{
     text-align: center;
     margin: 50px;
     padding: 50px;
+    border: 1px solid;
+    background-color: rgb(111, 177, 111);
+}
+.try{
+    display: flex;
+    justify-content: center;
 }
 .text{
     font-size: larger;
@@ -178,13 +189,15 @@ figcaption{
 }
 input{
     height:30px;
-    width: 200px;
+    width: 250px;
     margin: 5px;
     font-family: serif;
     font-size: large; 
     border: 1px solid grey;
     border-radius: 5px;
+   
 }
+
 textarea{
     font-size: large;
     margin: 5px;
@@ -197,7 +210,8 @@ textarea{
 
 /*  for email */
 .email{
-    color: rgb(4, 58, 58);
+    color: black;
+    text-decoration:underline double;
     font-size: 18px;
     font-family:  monospace;
 }
@@ -205,6 +219,12 @@ textarea{
     padding: 5px;
     font-family: serif;
     font-size: 18px;
+    border: 1px solid black;
+   
+    border-radius: 10px ;
+}
+.submit:hover{
+    color: grey;
 }
 .develop{
     display: flex;
@@ -214,10 +234,6 @@ textarea{
     padding: 10px;
 }
 
-.copyright{
-    font-size: 16px;
-    font-family:Verdana, Tahoma, sans-serif
-}
 .con{
     background-color:darkseagreen;
 
@@ -233,4 +249,8 @@ textarea{
 .deta img{
     height: 100px;
     width: 100px;
+}
+.italic{
+    font-style: italic;
+    font-size: 18px;
 }

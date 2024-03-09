@@ -40,7 +40,7 @@ body{
 .top ul li a:hover{
     color: white;
 }
-.sign{
+.log{
     display: flex;
     align-items: center;
 }
@@ -110,6 +110,8 @@ body{
 .banner img{
 
     border-radius: 10px;
+    height: 600px;
+    width: 1000px;
     
 }
 /*  recent blog */
@@ -149,5 +151,86 @@ figcaption{
     justify-content: center;
     align-items: center;
     margin: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
     padding: 30px;
+}
+
+
+/* contact us */
+.contact_us {
+    display: grid;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+}
+.text{
+    font-size: larger;
+    margin: 2px;
+    font-family: cursive;
+}
+/* making detail word similar to other  */
+#tell{
+    position: absolute;
+    left: 510px;
+}
+input{
+    height:30px;
+    width: 200px;
+    margin: 5px;
+    font-family: serif;
+    font-size: large; 
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+textarea{
+    font-size: large;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.detail{
+    margin-left: 150px;
+}
+
+/*  for email */
+.email{
+    color: rgb(4, 58, 58);
+    font-size: 18px;
+    font-family:  monospace;
+}
+.submit{
+    padding: 5px;
+    font-family: serif;
+    font-size: 18px;
+}
+.develop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.copyright{
+    font-size: 16px;
+    font-family:Verdana, Tahoma, sans-serif
+}
+.con{
+    background-color:darkseagreen;
+
+}
+
+/*  css for datalists */
+.deta{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+.deta img{
+    height: 100px;
+    width: 100px;
 }

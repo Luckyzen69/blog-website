@@ -5,7 +5,7 @@ export const data =[
         headline:"programming language is a language used by coders.",
         content:`Programming languages are tools that allow us to create software. They use symbols and structures  
         content:`,
-        img:"./images/feature.jpg"
+        img:"../images/feature.jpg"
     },
     {
         id:2,
@@ -13,14 +13,14 @@ export const data =[
         headline:"programming language is a language used by coders.",
         content:`Programming languages are tools that allow us to create software. They use symbols and structures  
         content:`,
-        img:"./images/feature1.jpg"
+        img:"../images/feature1.jpg"
     },
     {
         id:3,
         heading:"Stock market is on a song; what should mutual fund investors do?",
         headline:"The corporate tax cut seems to have worked wonders for the sentiment of the stock market.",
         content:`The corporate tax cut seems to have worked wonders for the sentiment of the stock market. After gaining around 1900 points on Friday, the market bellwether S&P BSE Sensex opened higher on Monday. The key index surged by over 1,000 points before settling down a little lower. Obviously, mutual fund investors are thrilled by the turn of events, as most market pundits are giving thumbs up to the government move and believe it will change the course of the market positively.`,
-        img:"./images/stock.jpg"
+        img:"../images/stock.jpg"
     },
     {
         id:4,
@@ -31,7 +31,7 @@ export const data =[
         As a professional essay writing service, we know all the ins and outs of academic writing. Some topics are exciting and easy to write about; some requirements are simple and easy to deal with; some deadlines are enough, while others make you regret there are only 24 hours a day. Quality is appreciated by many, but let’s not forget about the text’s originality, list of literature, and valuable findings. After all, the goal behind each essay is to assess one’s ability to think critically and prove one’s knowledge of the selected subject.
         
         Without further delay, let’s see how our essay writing service can help you get closer to the desired grades omitting anxiety and worthless sacrifices. We’ve got your back, friend!`,
-        img:"./images/writer.jpg"
+        img:"../images/writer.jpg"
     },
     {
         id:5    ,
@@ -52,15 +52,14 @@ export const data =[
         Firstly, where to base yourself in the Amalfi Coast when you visit and finally which other places to see.
         
         `,
-        img:"./images/italy.jpg"
+        img:"../images/italy.jpg"
     },
     {
         id:6    ,
         heading:"what is programming language",
-        headline:"programming language is a language used by coders.",
-        content:`Programming languages are tools that allow us to create software. They use symbols and structures  
+        headline:"programming language is <sup>superscript</sup> a language used by coders.<sub>subscript</sub>",
+        content:`Programming languages are   tools that allow us to create software. They use symbols and structures  
         content:`,
-        img:"./images/software.jpg"
+        img:"../images/software.jpg"
     },
 ]
-    

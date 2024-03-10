@@ -29,7 +29,7 @@ function send(){
     const formData = {
         name,
         email,
-        loaction,
+        location,
         message
     };  
 

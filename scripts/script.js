@@ -18,6 +18,7 @@ function displayData(data) {
     dataContainer.innerHTML = htmlContent;
 }
 function send(){
+    email.preventDefault();
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const location = document.getElementById('location').value;

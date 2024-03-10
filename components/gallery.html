@@ -16,8 +16,11 @@
         </ul>
     </div>
     <!--  navigation bar -->
-    <div class="nav">
-        <ul>
+    <img onclick='document.getElementById("sidebar").classList.add("active")' src="../images/bars-solid.svg" class="menu" alt="men-bar" width="25px"  height="25px">
+    <div class="sidebar" id="sidebar">
+        <img onclick='document.getElementById("sidebar").classList.remove("active")' src="../images/x-solid.svg" class="cross" alt="cross" width="15px" height="15px" >
+        
+        <ul class="navItems" id="navItems">
             <li><a href="../index.html">Home</a></li>
             <li><a href="./blog-list.html">Blog List</a></li>
             <li><a href="./blog-detal.html">Blog Detail</a></li>

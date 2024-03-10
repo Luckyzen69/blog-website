@@ -5,7 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="../style.css">
-    <script type="module" src="../scripts/script.js"></script>
+    <!--  using js for contact us client server validation -->
+    <script > 
+    function send(){
+   
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const location = document.getElementById('location').value;
+    const message = document.getElementById('message').value;
+
+    
+    const formData = {
+        name,
+        email,
+        location,
+        message
+    };  
+
+    alert(`Form submitted!\nName: ${name}\nEmail: ${email}\nMessage: ${message}`);
+
+}
+
+</script>
 </head>
 <body>
      <!--  top section -->
@@ -18,8 +39,11 @@
             </ul>
         </div>
         <!--  navigation bar -->
-        <div class="nav">
-                <ul>
+        <img onclick='document.getElementById("sidebar").classList.add("active")' src="../images/bars-solid.svg" class="menu" alt="men-bar" width="25px"  height="25px">
+        <div class="sidebar" id="sidebar">
+            <img onclick='document.getElementById("sidebar").classList.remove("active")' src="../images/x-solid.svg" class="cross" alt="cross" width="15px" height="15px" >
+            
+            <ul class="navItems" id="navItems">
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="./blog-list.html">Blog List</a></li>
                     <li><a href="./blog-detal.html">Blog Detail</a></li>

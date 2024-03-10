@@ -20,20 +20,6 @@ function displayData(data) {
     </div>
 `).join('');
     
-    dataContainer.innerHTML = htmlContent;
-}
-function detail(data){
-    const detailsContainer = document.getElementById('detailsContainer');
-    
-    // Clear previous content
-    detailsContainer.innerHTML = '';
-
-    // Create HTML content for each detail
-    for (const key in data) {
-        const detail = data[key];
-        const detailElement = document.createElement('p');
-        detailElement.textContent = `${key}: ${detail}`;
-        detailsContainer.appendChild(detailElement);
-    }   
+    dataContainer.innerHTML = htmlContent; 
 
 }

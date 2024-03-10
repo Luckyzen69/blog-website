@@ -138,13 +138,15 @@ body{
     margin-left: 10px;
 }
 .item{
-    margin-left: 4px;
+    margin-left: 10px;
 }
 /* gallery */
 .gallery{
     text-align: center;
-    display: grid  ;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* display: flex  ; */
+   flex-direction: column;
+
+   flex-grow: 1;    
    
 }
 figcaption{
@@ -254,4 +256,14 @@ textarea{
 .italic{
     font-style: italic;
     font-size: 18px;
+}
+/*  blog detail */
+.order{
+    margin-left: 25px;
+}
+.details{
+      border: 1px solid;
+      margin: 10px;  
+      display: flex;
+
 }

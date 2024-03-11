@@ -3,8 +3,7 @@ export const data =[
         id:1,
         heading:"what is programming language",
         headline:"programming language is a language used by coders.",
-        content:`Programming languages are tools that allow us to create software. They use symbols and structures  
-        content:  </br>
+        content:`Programming languages play a crucial role in the software development process, enabling developers to express their ideas in a format that computers can understand and execute. </br>
 
         <ol class="order">
         <li>test</li>
@@ -19,8 +18,7 @@ export const data =[
         id:2,
         heading:"what is programming language",
         headline:"programming language is a language used by coders.",
-        content:`Programming languages are tools that allow us to create software.  They use symbols and structures  
-        content:`,
+        content:`A programming language is a formal set of rules and instructions that a computer can understand and execute. </br> It serves as a medium for humans to communicate with computers and create software applications. Programming languages allow developers to write code, </br>which is a series of instructions that a computer follows to perform specific tasks or solve problems.`,
         img:"../images/feature1.jpg"
     },
     {

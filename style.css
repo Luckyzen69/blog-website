@@ -100,7 +100,7 @@ body{
   .links a:hover {
     color:cornflowerblue;
   }
-
+  
 @media (max-width:1024px){
     .sidebar{
         transform: translateX(100%);
@@ -171,10 +171,13 @@ body{
 /*  banner */
 .banner{
     display: flex   ;
-    position: relative;
     justify-content: center;
     align-items: center;
-    left: 50;
+
+}
+.banner img{
+    height: 1300px;
+    width: 700px;
 }
 
 .web{
@@ -202,9 +205,7 @@ body{
     
 }
 @media (max-width:480px){
-.banner{
-    left: 50px;
-}
+
 .ban img{
     font-size: 10px;
     width: 10px;
@@ -226,26 +227,35 @@ body{
 .banner img{
 
     border-radius: 10px;
-    height: 600px;
-    width: 1000px;
-    
+    height: 500px;
+    width: 700px;
+    margin-left: 10px;
 }
 /*  recent blog */
 .recent{
     display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px   ;
     grid-template-columns: repeat(3,1fr);
 
 }
 
 .recent img{
     height: 200px;
-    width: 400px;
+    width: 300px;
     border-radius: 10px;
     margin: 5px;
 }
 @media (max-width:732px){
     .recent{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
+        justify-content: center;
+        align-items: center ;
+    }
+    .banner > img {
+        height: 300px;
+        width: 300px;
     }
 }
 
@@ -391,10 +401,18 @@ textarea{
       display: flex;
 
 }
+.recent{
+    display: grid;
+    grid-template-columns: 1;
+}
 
 @media screen and (max-width: 732px) {
     .details img {
      height: 100px;
      width: 100px;
     }
+    .recent{
+        grid-template-columns: 1;
+    }
+    
   }
